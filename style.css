@@ -67,7 +67,7 @@ html {
   margin-top: var(--MRG-S);
   font-family: var(--FONT-P);
   font-weight: var(--FONT-W-700);
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(1.3rem, 2vw, 2rem);
 }
 
 .header-p-container {
@@ -95,7 +95,7 @@ html {
 
 .header-p {
   font-weight: var(--FONT-W-500);
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 4vw, 1.2rem);
   color: #4f4f4f;
 }
 
@@ -154,7 +154,7 @@ html {
 
 .fa-utensils,
 .fa-clock {
-  font-size: 1.4rem;
+  font-size: clamp(0.7rem, 4vw, 1.4rem);
 }
 
 .fa-utensils,
@@ -164,7 +164,7 @@ html {
 
 .title,
 .time {
-  font-size: clamp(0.7rem, 2.3vw, 1rem);
+  font-size: clamp(0.6rem, 2.3vw, 1rem);
 }
 
 .title {
@@ -181,7 +181,7 @@ html {
 .main-h3 {
   font-family: var(--FONT-P);
   font-weight: var(--FONT-W-700);
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 4vw, 1.5rem);
 }
 
 .main-art1 fieldset {
@@ -200,11 +200,12 @@ html {
 .main-art1 label {
   line-height: 2em;
   margin-left: 0.5em;
+  font-size: clamp(0.5rem, 4vw, 1.2rem);
 }
 
 .main-form legend {
   margin-bottom: 1em;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 4vw, 1.2rem);
   font-family: var(--FONT-P);
   font-style: italic;
   color: #333;
@@ -223,7 +224,7 @@ html {
   margin-bottom: 0.8em;
   font-family: var(--FONT-P);
   font-weight: var(--FONT-W-700);
-  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  font-size: clamp(1.3rem, 4vw, 1.6rem);
 }
 
 .main-Inst-container {
@@ -233,7 +234,7 @@ html {
 
 .main-Inst-container p {
   width: 100%;
-  font-size: clamp(1rem, 2vw, 1.1rem);
+  font-size: clamp(0.8rem, 4vw, 1.1rem);
 }
 
 .box {
@@ -265,7 +266,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: clamp(0.6rem, 2vw, 1rem);
   color: #828282;
 }
 
